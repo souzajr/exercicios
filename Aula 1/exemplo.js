@@ -1,7 +1,7 @@
-// declarando uma função que pode mudar de valor (LET)
+// declarando uma variavel que pode mudar de valor (LET)
 let teste = "Isso é o primeiro teste"
 
-// declarando uma função que pode NÃO mudar de valor (CONST)
+// declarando uma variavel que pode NÃO mudar de valor (CONST)
 const teste2 = "Somente leitura"
   
 // declarando função
@@ -12,14 +12,13 @@ function funcaoTeste() {
   teste = "Mudando valor de teste"
   console.log(teste)
 
-  teste2 = "Mudando valor de teste2"
+  //teste2 = "Mudando valor de teste2"
   console.log(teste2)
 
-  // criando variavel LET dentro do escopo de uma variável
+  // criando variavel LET dentro do escopo de uma função
   let testeX = "Isso é o segundo teste"
+  console.log(testeX)
 }
 
 // executando função
 funcaoTeste()
-
-console.log(testeX)
